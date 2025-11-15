@@ -6,7 +6,10 @@
 #include "GameFramework/GameModeBase.h"
 #include "TLakeGameMode.generated.h"
 
-UCLASS(minimalapi)
+/**
+ *  Simple GameMode for a first person game
+ */
+UCLASS(abstract)
 class ATLakeGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
